@@ -6,11 +6,11 @@ Formålet er at gøre udviklingsarbejdet løbende synligt: PCB-status, komponent
 
 ## Aktuel status
 
-- ARC-Probe PCB-designet er mere eller mindre klar til bestilling.
-- Komponenter til første ARC-Probe bring-up blev bestilt hos Mouser 29. april 2026.
-- Når Mouser-ordren er clearet, bestilles printplader.
-- Herefter starter ARC-Probe bring-up med montage, strømtest, sensorvalidering, firmware og første måledata.
-
+- ARC-Probe PCB-designet bestilt. Printpladerne produceres med ENIG-overfladefinish og forventes afsendt fra Tyskland den 19. maj 2026.
+- ST-udviklingsværktøj med STM32WBA5 Bluetooth-modulet er til rådighed, så firmwaretest kan påbegyndes parallelt med PCB-produktionen.
+- Komponenter til første ARC-Probe bring-up, bestilt hos Mouser 29. april 2026, er modtaget.
+- Når printpladerne modtages, starter ARC-Probe bring-up med montage, strømtest, sensorvalidering, firmwareintegration og første måledata.
+  
 ## Foreslået struktur
 
 - `arc-probe-bringup-log.md` - PCB, komponenter, montage, strøm, sensorer og første data.
