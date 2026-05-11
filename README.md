@@ -1,6 +1,6 @@
 # ARC-Devs
 
-ARC-Devs samler offentlig udviklingsstatus for ARC-modulerne og Skolehaven 4.0 pilotarbejdet.
+ARC-Devs samler offentlig udviklingsstatus for ARC-modulerne og KlimaLab AI Accelereret.
 
 Formålet er at gøre fremdriften synlig: hardwarestatus, bring-up, firmwaremilepæle, testnoter og udvalgte måledata kan samles her eller linkes herfra til de aktive udviklingsrepos.
 
