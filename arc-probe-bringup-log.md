@@ -1,5 +1,36 @@
 # ARC-Probe Bring-Up Log
 
+## 2026-05-12 09:43 CEST - iOS app bring-up path established for ARC BLE/Mesh demo
+
+Today we opened a parallel app bring-up track for the ARC mobile interface, using the recovered React Native/Expo lamp app as the starting point for iOS testing.
+
+Completed:
+
+- missing Mesh app files recovered from the backup branch, including mesh storage/types/queue and Android native `MeshManager` sources
+- iOS native project generated from the Expo/React Native app
+- CocoaPods installed and iOS pods resolved successfully
+- Xcode toolchain verified with the local Xcode installation
+- iPhone XR detected over USB, paired, and confirmed with Developer Mode enabled
+- iOS simulator build completed successfully
+- LampBLE launched on the iPhone simulator and loaded the React Native JavaScript bundle
+- simulator UI smoke test passed; expected log observed that Mesh native module is not available in simulator
+- Apple Developer access established, enabling the next physical-device signing steps
+
+This confirms that the ARC mobile app is no longer Android-only at the project level. The shared TypeScript/UI layer can build and boot on iOS, and the remaining radio validation is now a physical-device/signing task rather than an app-porting blocker.
+
+Current status:
+
+iOS app/UI bring-up milestone: PASS.
+
+Physical iPhone BLE/Mesh radio bring-up: READY FOR NEXT TEST.
+
+Next steps:
+
+- run the app directly on the iPhone XR with Apple Developer signing
+- verify iOS Bluetooth permission flow
+- test BLE scan and connect against ARC hardware
+- decide the app bundle identifier and build/version naming
+
 ## 2026-05-11 12:46 CEST - BLE Sensor app connected with live environment data
 
 The FreeRTOS bring-up was extended from a simple LED heartbeat to a live BLE Sensor profile test on the STM32WBA5 development platform.
