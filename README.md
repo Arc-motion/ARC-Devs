@@ -16,6 +16,11 @@ Formålet er at gøre fremdriften synlig: hardwarestatus, bring-up, firmwaremile
 <br>
 
 <p align="center">
+	<strong>12. maj 2026 - iOS bring-up gennemført</strong><br>
+	ARC Lighting appen kører på en fysisk iPhone og viser live data fra STM32WBA5-testplatformen. Mesh-provisionering, forbindelse, temperaturdata og de første lampeindstillinger er verificeret i den aktuelle bring-up opsætning.
+</p>
+
+<p align="center">
 	<img src="assets/BringUp_iOS.jpeg" alt="ARC Lighting iOS homescreen bring-up" width="180">
 </p>
 
