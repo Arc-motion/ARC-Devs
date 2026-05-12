@@ -6,7 +6,7 @@ Today we opened a parallel app bring-up track for the ARC mobile interface, usin
 
 Completed:
 
-- missing Mesh app files recovered from the backup branch, including mesh storage/types/queue and Android native `MeshManager` sources
+
 - iOS native project generated from the Expo/React Native app
 - CocoaPods installed and iOS pods resolved successfully
 - Xcode toolchain verified with the local Xcode installation
