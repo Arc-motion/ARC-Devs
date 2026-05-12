@@ -13,7 +13,13 @@ Formålet er at gøre fremdriften synlig: hardwarestatus, bring-up, firmwaremile
 - iOS Mesh bring-up er i gang: MESH-provisionering virker i den aktuelle testopsætning, og den tilpassede ARC Lighting homescreen viser live lampestatus, solopgang/solnedgang samt indstillinger for lampens on/off-tider og fade-forløb.
 - Når printpladerne modtages, starter ARC-Probe bring-up med montage, strømtest, sensorvalidering, firmwareintegration og første måledata.
 
-<img src="assets/BringUp_iOS.jpeg" alt="ARC Lighting iOS homescreen bring-up" width="180">
+<br>
+
+<p align="center">
+	<img src="assets/BringUp_iOS.jpeg" alt="ARC Lighting iOS homescreen bring-up" width="180">
+</p>
+
+<br>
 
 Note: Skærmbilledet viser et work in progress-design. Knappen i midten er tænd/sluk, og de buede sliders bruges til lysintensitet og relaterede lampeindstillinger. All rights reserved.
 
