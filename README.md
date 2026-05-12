@@ -16,6 +16,8 @@ Formålet er at gøre fremdriften synlig: hardwarestatus, bring-up, firmwaremile
 
 - [ARC-Probe bring-up log](arc-probe-bringup-log.md)
 
+- [iOS bring-up log](ios-iphone-bringup-log.md)
+
 ## Arbejdsprincip
 
 Udviklingen dokumenteres løbende, så pilotarbejdet kan følges fra tidlige hardware- og firmwaretests til første måledata.
