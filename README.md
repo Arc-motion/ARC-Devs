@@ -10,7 +10,12 @@ Formålet er at gøre fremdriften synlig: hardwarestatus, bring-up, firmwaremile
 - ST-udviklingsværktøj med STM32WBA5 Bluetooth-modulet er til rådighed, så firmwaretest kan påbegyndes parallelt med PCB-produktionen.
 - Komponenter til første ARC-Probe bring-up, bestilt hos Mouser 29. april 2026, er modtaget.
 - Første FreeRTOS heartbeat er verificeret på STM32WBA5 platformen.
+- iOS Mesh bring-up er i gang: MESH-provisionering virker i den aktuelle testopsætning, og den tilpassede ARC Lighting homescreen viser live lampestatus, solopgang/solnedgang samt indstillinger for lampens on/off-tider og fade-forløb.
 - Når printpladerne modtages, starter ARC-Probe bring-up med montage, strømtest, sensorvalidering, firmwareintegration og første måledata.
+
+![ARC Lighting iOS homescreen bring-up](assets/BringUp_iOS.jpeg)
+
+Note: Skærmbilledet viser et work in progress-design. Knappen i midten er tænd/sluk, og de buede sliders bruges til lysintensitet og relaterede lampeindstillinger. All rights reserved.
 
 ## Bring-Up Logs
 
