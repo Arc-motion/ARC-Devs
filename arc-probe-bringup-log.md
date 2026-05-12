@@ -6,7 +6,6 @@ Today we opened a parallel app bring-up track for the ARC mobile interface, usin
 
 Completed:
 
-
 - iOS native project generated from the Expo/React Native app
 - CocoaPods installed and iOS pods resolved successfully
 - Xcode toolchain verified with the local Xcode installation
